@@ -1,4 +1,13 @@
 ﻿for(int i = 666; i > 1; i--)
 {
-    Console.WriteLine("azazaza " + i);
+    
+    if(i % 2 != 0)
+    {
+        Console.WriteLine("!0" + i);
+    }
+    else
+    {
+        Console.WriteLine("azazaza " + i);
+    }
 }
+
